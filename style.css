@@ -8,15 +8,11 @@ body{
     background-image: url("wind.gif");
     color:white;
 }
-@media (max-width:600px) {
-    .navbar-brand{
-        align-items: center;
+@media (max-width:600px){
+    .container-fluid{
         justify-content: center;
-        text-align: center !important;
     }
-    .d-flex{
-        justify-content: center !important;
-        align-items: center !important;
+    .navbar-brand{
+        font-size:2rem !important;
     }
-    
 }

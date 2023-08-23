@@ -33,7 +33,7 @@ const getWeatherCity = (city) => {
 
       if (response.temp <= 32 && response.temp >= 25) {
         document.body.style.backgroundImage = "url('Cloudy.webp')";
-        document.body.style.backgroundRepeat = "no repeat";
+        document.body.style.backgroundRepeat = "no-repeat";
         document.body.style.backgroundSize = "cover";
       } else if (response.temp > 32) {
         document.body.style.backgroundImage = "url('sunny.jpg')";
